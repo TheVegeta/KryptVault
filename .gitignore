@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Expo & React Native
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+ios/
+android/
+
+# Build outputs & caches
+build/
+out/
+.next/
+.cache/
+.parcel-cache/
+.turbo/
+.tsbuildinfo
+*.tgz
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# Testing & coverage
+coverage/
+.nyc_output/
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Repomix outputs
+repomix-output.txt
+repomix-output.xml
+repomix-output.md
+repomix-output.json
